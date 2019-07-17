@@ -4,4 +4,4 @@ url: "www.rl4rl.com" # the base hostname & protocol for your site, e.g. http://e
 plugins:
   - jekyll-remote-theme
   
-remote_theme: sujaykundu777/devlopr-starter
+remote_theme: chrisbobbe/jekyll-theme-prologue
