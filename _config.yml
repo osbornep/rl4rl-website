@@ -1,69 +1,35 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.rl4rl.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-plugins:
-  - jekyll-remote-theme
+#plugins:
+#  - jekyll-remote-theme
   
-remote_theme: sujaykundu777/devlopr-starter
+#remote_theme: sujaykundu777/devlopr-starter
 #chrisbobbe/jekyll-theme-prologue
 
-
-# Developer's Note: This is a sample _config.yml file offered with
-# jekyll-theme-prologue for your convenience. To use it, move it to your
-# project's root directory. Please note that the following lines are
-# NECESSARY for Prologue to work correctly:
-#
-# theme: jekyll-theme-prologue
-# collections: [sections]
-#
-# They activate the theme and tell Jekyll to find your homepage content
-# in /_sections. Note where "sections" starts with an underscore
-# and where it doesn't. The social settings will make links to
-# Twitter, etc., but only if you give the URL.
-#
-# Also, be sure to customize url and baseurl for your site.
-#
-# ---------------------------------------------------------------
-#
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-subtitle: Your awesome subtitle
+title: devlopr jekyll
+subtitle: A Jekyll Theme built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
-author: Your Incredible Name
-email: your-email@example.com
-avatar: assets/images/avatar.jpg
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
+author_logo: profile.png
+disqus_shortname: sujay-kundu  #for comments using disqus
+author: devlopr
+author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.Check out my blog articles, React.JS and Vue.JS UI components at the code laboratory.Feel free to take a look at my latest projects below.Based in London, UK. 
+author_email: "john@devlopr.com"
+author_location: India
+author_website_url: "https://yourwebsite.com"
 
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url:
-github_url:
-pinterest_url:
-slack_url:
-dribbble_url:
-
-# Google Analytics Tracking ID goes here:
-google_analytics:
-
-# The following settings are NECESSARY for the Prologue theme to run:
-# collections: [sections]
+# social links
+twitter_username: yourusername
+github_username:  yourusername
+facebook_username: yourusername
+linkedin_username: yourusername
+behance_username: yourusername
+instagram_username: yourusername
+medium_username: yourusername 
+telegram_username: yourusername
+dribbble_username: yourusername 
+flickr_username: yourusername
