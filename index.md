@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: home
 ---
 
 ### Hello World
