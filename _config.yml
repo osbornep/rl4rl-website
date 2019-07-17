@@ -1,4 +1,4 @@
-title: Reinforcement Learning for Real Life (Rl4RL)
+title: Reinforcement Learning for Real Life (RL4RL)
 subtitle: A Website for Sharing Rl4RL Projects
 description: >- # this means to ignore newlines until "baseurl:"
   The website for the RL4RL project; encouraging researchers to share their applications of Reinforcement Learning to Real Life problems. 
@@ -14,13 +14,13 @@ author_email: "philiposbornedata@gmail.com"
 author_location: Manchester/London UK
 author_website_url: "https://philiposbornedata.com"
 # social links
-twitter_username: yourusername
-github_username:  yourusername
-facebook_username: yourusername
-linkedin_username: yourusername
-behance_username: yourusername
-instagram_username: yourusername
-medium_username: yourusername 
-telegram_username: yourusername
-dribbble_username: yourusername 
-flickr_username: yourusername
+twitter_username: DataOsborne
+github_username:  osbornep
+#facebook_username: yourusername
+linkedin_username: philip-osborne-1052a183
+#behance_username: yourusername
+#instagram_username: yourusername
+medium_username: sterlingosborne 
+#telegram_username: yourusername
+#dribbble_username: yourusername 
+#flickr_username: yourusername
