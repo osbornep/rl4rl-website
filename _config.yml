@@ -1,21 +1,18 @@
-title: devlopr jekyll
-subtitle: A Jekyll Theme built for Developers
+title: Reinforcement Learning for Real Life (Rl4RL)
+subtitle: A Website for Sharing Rl4RL Projects
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The website for the RL4RL project; encouraging researchers to share their applications of Reinforcement Learning to Real Life problems. 
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.rl4rl.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-author_logo: profile.png
-disqus_shortname: sujay-kundu  #for comments using disqus
-author: devlopr
-author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.Check out my blog articles, React.JS and Vue.JS UI components at the code laboratory.Feel free to take a look at my latest projects below.Based in London, UK. 
-author_email: "john@devlopr.com"
-author_location: India
-author_website_url: "https://yourwebsite.com"
-
+author_logo: rl4rl_logo.png
+disqus_shortname: Philip Osborne  #for comments using disqus
+author: Philip Osborne
+author_bio: Hello, my name is Philip Osborne. I am a PhD Student of Artificial Intelligence at the Univeristy of Manchester, UK. 
+author_email: "philiposbornedata@gmail.com"
+author_location: Manchester/London UK
+author_website_url: "https://philiposbornedata.com
 # social links
 twitter_username: yourusername
 github_username:  yourusername
