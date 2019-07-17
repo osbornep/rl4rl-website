@@ -4,7 +4,8 @@ url: "www.rl4rl.com" # the base hostname & protocol for your site, e.g. http://e
 plugins:
   - jekyll-remote-theme
   
-remote_theme: chrisbobbe/jekyll-theme-prologue
+remote_theme: sujaykundu777/devlopr-starter
+#chrisbobbe/jekyll-theme-prologue
 
 
 # Developer's Note: This is a sample _config.yml file offered with
@@ -65,4 +66,4 @@ dribbble_url:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-collections: [sections]
+# collections: [sections]
