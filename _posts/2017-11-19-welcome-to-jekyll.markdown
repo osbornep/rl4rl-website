@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to my Blog!
-author: Sujay Kundu
+author: Philip Osborne
 date: '2017-11-19 14:35:23 +0530'
 category: web-development
 summary: My First Post
