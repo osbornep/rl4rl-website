@@ -43,7 +43,7 @@ This introduces a very basic action-reward concept, and we have an example class
 Our aim is to find the best instructions for each person so that the paper reaches the teacher and is placed into the bin and avoids being thrown in the bin.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom.png"><img src="https://raw.githubusercontent.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 ## States and Actions
