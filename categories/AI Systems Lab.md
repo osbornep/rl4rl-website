@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blog/categories/web-development
+permalink: /blog/categories/AI Systems Lab
 ---
  
 <h3> Posts by Category : {{ page.title }} </h3>
