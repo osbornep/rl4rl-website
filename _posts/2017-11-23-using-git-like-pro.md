@@ -20,7 +20,6 @@ As the model goes through more and more episodes, it begins to learn which actio
 
 Reinforcement Learning General Process
 
-![1](assets/img/posts/intro_rl4rl/RL_process.png "Reinforcement Learning General Process")
 
 Many of the RL applications online train models on a game or virtual environment where the model is able to interact with the environment repeatedly. For example, you let the model play a simulation of tic-tac-toe over and over so that it observes success and failure of trying different moves.
 
