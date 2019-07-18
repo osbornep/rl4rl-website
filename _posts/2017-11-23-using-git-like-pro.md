@@ -23,7 +23,7 @@ Reinforcement Learning General Process
 
 ![img_1](assets/img/profile.png "Logo Title Text 1")
 
-<img src="assets/img/styleguide.png" width="100%" height="auto">
+<img src="assets/img/styleguide.png" width="50%" height="auto">
 
 
 
