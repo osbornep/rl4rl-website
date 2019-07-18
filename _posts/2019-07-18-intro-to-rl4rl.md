@@ -43,7 +43,7 @@ This introduces a very basic action-reward concept, and we have an example class
 Our aim is to find the best instructions for each person so that the paper reaches the teacher and is placed into the bin and avoids being thrown in the bin.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom.png"><img src="https://raw.githubusercontent.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/classroom.png"><img src="https://raw.githubusercontent.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/classroom.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 ## States and Actions
@@ -51,7 +51,7 @@ Our aim is to find the best instructions for each person so that the paper reach
 In our environment, each person can be considered a state and they have a variety of actions they can take with the scrap paper. They may choose to pass it to an adjacent class mate, hold onto it or some may choose to throw it into the bin. We can therefore map our environment to a more standard grid layout as shown below.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom_gridworld.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/classroom_gridworld.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/classroom_gridworld.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/classroom_gridworld.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 This is purposefully designed so that each person, or state, has four actions: up, down, left or right and each will have a varied ‘real life’ outcome based on who took the action. An action that puts the person into a wall (including the black block in the middle) indicates that the person holds onto the paper. In some cases, this action is duplicated, but is not an issue in our example.
@@ -76,27 +76,27 @@ Another example is if we are recommending online shopping products there is no g
 To find the observed transitional probabilities, we need to collect some sample data about how the environment acts. Before we collect information, we first introduce an initial policy. To start the process, I have randomly chosen one that looks as though it would lead to a positive outcome.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/behaviour_pol.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/behaviour_pol.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/behaviour_pol.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/behaviour_pol.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 
 Now we observe the actions each person takes given this policy. In other words, say we sat at the back of the classroom and simply observed the class and observed the following results for person A:
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/action_space.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/action_space.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/action_space.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/action_space.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 We see that a paper passed through this person 20 times; 6 times they kept hold of it, 8 times they passed it to person B and another 6 times they threw it in the trash. This means that under our initial policy, the probability of keeping hold or throwing it in the trash for this person is 6/20 = 0.3 and likewise 8/20 = 0.4 to pass to person B. We can observe the rest of the class to collect the following sample data:
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/observed_stats.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/observed_stats.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/observed_stats.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/observed_stats.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 
 Likewise, we then calculate the probabilities to be the following matrix and we could use this to simulate experience. The accuracy of this model will depend greatly on whether the probabilities are true representations of the whole environment. In other words, we need to make sure we have a sample that is large and rich enough in data.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/observed_stats_prob.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/observed_stats_prob.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/observed_stats_prob.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/observed_stats_prob.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 ## Multi-Armed Bandits, Episodes, Rewards, Return and Discount Rate
@@ -128,7 +128,7 @@ The overall goal of our RL model is to select the actions that maximises the exp
 A more rigorous approach is to consider the first steps to be more important than later ones in the episode by applying a discount factor, gamma, in the following formula:
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/reward_formula.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/reward_formula.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/reward_formula.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/reward_formula.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 
@@ -146,7 +146,7 @@ As our example environment is small, we can apply each and show some of the calc
 For any algorithm, we first need to initialise the state value function, V(s), and have decided to set each of these to 0 as shown below.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/V_0.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/V_0.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/V_0.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/V_0.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 
@@ -154,15 +154,15 @@ For any algorithm, we first need to initialise the state value function, V(s), a
 Next, we let the model simulate experience on the environment based on our observed probability distribution. The model starts a piece of paper in random states and the outcomes of each action under our policy are based on our observed probabilities. So for example, say we have the first three simulated episodes to be the following:
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/episode_1.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/episode_1.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/episode_1.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/episode_1.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/episode_2.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/episode_2.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/episode_2.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/episode_2.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/episode_3.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/episode_3.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/episode_3.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/episode_3.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 With these episodes we can calculate our first few updates to our state value function using each of the three models given. For now, we pick arbitrary alpha and gamma values to be 0.5 to make our hand calculations simpler. We will show later the impact this variable has on results.
@@ -170,23 +170,23 @@ With these episodes we can calculate our first few updates to our state value fu
 First, we apply temporal difference 0, the simplest of our models and the first three value updates are as follows:
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_1.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_1.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_1.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_1.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 
 So how have these been calculated? Well because our example is small we can show the calculations by hand.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_2.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_2.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_2.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_2.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_3.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_3.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_3.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_3.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_4.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_4.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_4.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_4.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 So what can we observe at this early stage? Firstly, using TD(0) appears unfair to some states, for example person D, who, at this stage, has gained nothing from the paper reaching the bin two out of three times. Their update has only been affected by the value of the next stage, but this emphasises how the positive and negative rewards propagate outwards from the corner towards the states.
@@ -194,7 +194,7 @@ So what can we observe at this early stage? Firstly, using TD(0) appears unfair 
 As we take more episodes the positive and negative terminal rewards will spread out further and further across all states. This is shown roughly in the diagram below where we can see that the two episodes the resulted in a positive result impact the value of states Teacher and G whereas the single negative episode has punished person M.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/V_3.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/V_3.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/V_3.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/V_3.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 To show this, we can try more episodes. If we repeat the same three paths already given we produce the following state value function:
@@ -202,17 +202,17 @@ To show this, we can try more episodes. If we repeat the same three paths alread
 (Please note, we have repeated these three episodes for simplicity in this example but the actual model would have episodes where the outcomes are based on the observed transition probability function.)
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_5.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_5.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_5.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_5.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/V_27.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/V_27.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/V_27.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/V_27.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 The diagram above shows the terminal rewards propagating outwards from the top right corner to the states. From this, we may decide to update our policy as it is clear that the negative terminal reward passes through person M and therefore B and C are impacted negatively. Therefore, based on V27, for each state we may decide to update our policy by selecting the next best state value for each state as shown in the figure below
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/optimal_pol.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/optimal_pol.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/optimal_pol.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/optimal_pol.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 There are two causes for concerns in this example: the first is that person A’s best action is to throw it into the bin and net a negative reward. This is because none of the episodes have visited this person and emphasises the multi armed bandit problem. In this small example there are very few states so would require many episodes to visit them all, but we need to ensure this is done.
@@ -231,14 +231,14 @@ Learning rate of a Q learning agent
 The question how the learning rate influences the convergence rate and convergence itself. If the learning rate is…stackoverflow.com
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/total_v.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/total_v.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/total_v.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/total_v.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 Episode
 There are some complex methods for establishing the optimal learning rate for a problem but, as with any machine learning algorithm, if the environment is simple enough you iterate over different values until convergence is reached. This is also known as stochastic gradient decent. In a recent RL project, I demonstrated the impact of reducing alpha using an animated visual and this is shown below. This demonstrates the oscillation when alpha is large and how this becomes smoothed as alpha is reduced.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/alpha_anim.gif"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/alpha_anim.gif" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/alpha_anim.gif"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/alpha_anim.gif" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 Likewise, we must also have our discount rate to be a number between 0 and 1, oftentimes this is taken to be close to 0.9. The discount factor tells us how important rewards in the future are; a large number indicates that they will be considered important whereas moving this towards 0 will make the model consider future steps less and less.
@@ -246,13 +246,13 @@ Likewise, we must also have our discount rate to be a number between 0 and 1, of
 With both of these in mind, we can change both alpha from 0.5 to 0.2 and gamma from 0.5 to 0.9 and we achieve the following results:
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_6.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/td_0_6.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_6.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/td_0_6.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 Because our learning rate is now much smaller the model takes longer to learn and the values are generally smaller. Most noticeably is for the teacher which is clearly the best state. However, this trade-off for increased computation time means our value for M is no longer oscillating to the degree they were before. We can now see this in the diagram below for the sum of V(s) following our updated parameters. Although it is not perfectly smooth, the total V(s) slowly increases at a much smoother rate than before and appears to converge as we would like but requires approximately 75 episodes to do so.
 
 <center>
-<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/total_v_2.png"><img src="https://raw.github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/total_v_2.png" title="Reinforcement Learning General Process" class="center"/></a>
+<a href="https://github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/total_v_2.png"><img src="https://raw.github.com/osbornep/rl4rl-website/master/assets/img/posts/intro_rl4rl/total_v_2.png" title="Reinforcement Learning General Process" class="center"/></a>
 </center>
 
 ## Changing the Goal Outcome
