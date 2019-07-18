@@ -17,7 +17,7 @@ Reinforcement Learning (RL) is the process of testing which actions are best for
 As the model goes through more and more episodes, it begins to learn which actions are more likely to lead us to a positive outcome. Therefore it finds the best actions in any given state, known as the optimal policy.
 
 
-<div class="iframeContainer"><img src="assets/img/posts/intro_rl4rl/RL_process.png" width="100%" height="auto"></div>
+<div class="iframeContainer"><img src="assets/img/posts/introrl4rl/RL_process.png" width="100%" height="auto"></div>
 
 Reinforcement Learning General Process
 
