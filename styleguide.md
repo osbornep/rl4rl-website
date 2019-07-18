@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Styleguide
+title: Contact
 ---
 
 <h1 class="text-center"> Devlopr - Styleguide </h1>
