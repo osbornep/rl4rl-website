@@ -1,12 +1,14 @@
-title: Reinforcement Learning for Real Life (RL4RL)
-subtitle: A Website for Sharing Rl4RL Projects
+title: Reinforcement Learning for Real Life Problems
+subtitle: Homepage of the RL4RL Project
 description: >- # this means to ignore newlines until "baseurl:"
-  The website for the RL4RL project; encouraging researchers to share their applications of Reinforcement Learning to Real Life problems. 
+  The website for the RL4RL project; encouraging state of the art applications of Reinforcement Learning to Real Life problems. 
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.rl4rl.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 author_logo: rl4rl_logo.png
+post_author_logo_1: profile.png
+
 disqus_shortname: Philip Osborne  #for comments using disqus
 author: Philip Osborne
 author_bio: Hello, my name is Philip Osborne. I am a PhD Student of Artificial Intelligence at the Univeristy of Manchester, UK. 
