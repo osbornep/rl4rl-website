@@ -27,7 +27,7 @@ Reinforcement Learning General Process
 
 ![img_1](assets/img/profile.png "Logo Title Text 1")
 
-<a href="https://imgur.com/ExGpRwl"><img src="https://i.imgur.com/ExGpRwl.png" title="source: imgur.com" /></a>
+<a href="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/RL_process.png"><img src="https://github.com/osbornep/rl4rl-website/blob/master/assets/img/posts/intro_rl4rl/RL_process.png" title="Reinforcement Learning General Process" /></a>
 
 
 
