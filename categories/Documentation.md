@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blog/categories/jekyll
+permalink: /blog/categories/Documentation
 ---
  
 <h3> Posts by Category : {{ page.title }} </h3>
