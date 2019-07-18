@@ -27,7 +27,7 @@ Reinforcement Learning General Process
 
 ![img_1](assets/img/profile.png "Logo Title Text 1")
 
-<img src="assets/img/styleguide.png" width="50%" height="50%">
+<a href="https://imgur.com/ExGpRwl"><img src="https://i.imgur.com/ExGpRwl.png" title="source: imgur.com" /></a>
 
 
 
