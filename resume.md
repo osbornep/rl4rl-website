@@ -1,4 +1,4 @@
 ---
-title: Resume
+title: About
 layout: home
 ---
