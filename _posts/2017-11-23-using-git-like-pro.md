@@ -2,7 +2,6 @@
 title: How to apply Reinforcement Learning to Real Life Planning Problems
 layout: post
 summary: An introduction to using Reinforcement Learning for Real Life Problems
-category: web-development
 thumbnail: posts/intro_rl4rl/banner.png
 author: Philip Osborne
 ---
