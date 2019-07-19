@@ -26,13 +26,17 @@ Prior to formalising the methods in this work, we have published short education
 #### Planning Meals with Reinforcement Learning 
 
 [Medium](https://medium.com/free-code-camp/how-i-planned-my-meals-with-reinforcement-learning-on-a-budget-a82aac906ada)
+
 [Kaggle](https://www.kaggle.com/osbornep/reinforcement-learning-for-meal-planning-in-python)
 
 #### Improving a Player's Decision Making in Video Games
 
 [Medium](https://towardsdatascience.com/ai-in-video-games-improving-decision-making-in-league-of-legends-using-real-match-statistics-and-29ebc149b0d0)
+
 [Kaggle Part 1](https://www.kaggle.com/osbornep/lol-ai-model-part-1-initial-eda-and-first-mdp)
+
 [Kaggle Part 2](https://www.kaggle.com/osbornep/lol-ai-model-part-2-redesign-mdp-with-gold-diff)
+
 [Kaggle Part 3](https://www.kaggle.com/osbornep/lol-ai-model-part-3-final-output)
 
 
