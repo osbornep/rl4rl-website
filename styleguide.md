@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Extra
+title: Archive
 ---
 
 <h1 class="text-center"> Devlopr - Styleguide </h1>
