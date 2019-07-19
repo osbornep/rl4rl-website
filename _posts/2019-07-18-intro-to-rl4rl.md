@@ -4,7 +4,7 @@ layout: post
 summary: An introduction to using Reinforcement Learning for Real Life Problems
 thumbnail: posts/intro_rl4rl/banner.png
 categories:
-  - Intro
+  - Beginner
   - Simulated
 
 author: Philip Osborne
