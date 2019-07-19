@@ -5,7 +5,7 @@ author: Philip Osborne
 date: '2019-07-15 14:00:00 +0000'
 category: Intro
 summary: Introduction to Reinforcement for Real Life (RL4RL)
-thumbnail: posts/rl4rl_logo.png
+thumbnail: rl4rl_logo.png
 ---
 
 Reinforcement Learning is a powerful tool in Artificial Intelligence in which software agents learn to optimize their decision making towards a long term goal. Traditionally, this is done in virtual environments or simulations in which the agent may experiment for an almost limitless number of attempts. In many real-life tasks, this is simply not possible as data is scarce. Instead, observed statistics are often modelled as a Markov Decision Process (MDP) for applying Reinforcement Learning.
