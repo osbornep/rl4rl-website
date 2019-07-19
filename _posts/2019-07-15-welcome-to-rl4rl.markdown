@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to RL4RL!
 author: Philip Osborne
-date: '2019-07-19 14:00:00 +0000'
+date: '2019-07-15 14:00:00 +0000'
 category: Intro
 summary: Introduction to Reinforcement for Real Life (RL4RL)
 thumbnail: posts/hello.jpg
